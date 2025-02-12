@@ -1,0 +1,25 @@
+{
+  "name": "ttdk",
+  "version": "1.0.0",
+  "description": "Testing SDK",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^4.0.0",
+    "faker": "^5.5.3",
+    "mocha": "^10.0.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "copyright-header": "^0.4.6"
+  },
+  "scripts": {
+    "test": "mocha index.js --timeout 15000 --exit"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "TTDK Team",
+  "license": "MIT - TTDK Team"
+}
